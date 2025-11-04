@@ -1,3 +1,7 @@
+import 'package:api_app/api_example/ApiExampleList.dart';
+import 'package:api_app/api_example/AssignmentsWeek5.dart';
+import 'package:api_app/page/animeted_test.dart';
+import 'package:api_app/page/setting_page.dart';
 import 'package:api_app/page/simple_custom_widget.dart';
 import 'package:flutter/material.dart';
 
@@ -18,7 +22,7 @@ class MyApp extends StatelessWidget {
         
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const SimpleCustomWidget(),
+      home: const AnimetedTest(),
     );
   }
 }
